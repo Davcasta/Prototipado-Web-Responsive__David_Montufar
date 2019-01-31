@@ -1,0 +1,172 @@
+.opciones{
+  position: relative;
+  bottom: 40px;
+}
+.menu {
+  position: relative;
+  bottom: 650px;
+}
+
+.mes{
+  height: 50px;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  top: 20px;
+}
+.mes h1{
+  font-size: 2em;
+  text-align: center;
+  position: relative;
+  top: 10PX;
+}
+.grafico{
+  width: 35%;
+  position: relative;
+  left: 5%;
+  top: 50px;
+}
+.grafico img{
+  width: 100%;
+}
+.a a{
+  font-size: 2em;
+  width: 35%;
+  height: 75px;
+  position: relative;
+  left: 55%;
+  bottom: 150px;
+}
+.guardar{
+  font-size: 2em;
+  width: 80%;
+  position: relative;
+  left: 75px;
+  top: 15px;
+}
+.deslizador{
+  height: 100px;
+  width: 200px;
+  font-size: 1.5em;
+  color: black;
+  position: relative;
+  top: 75px;
+  left: 10%;
+}
+.deslizador input{
+  width: 500px;
+  position: relative;
+  left: 150px;
+  bottom: 35px;
+}
+.deslizador p{
+  position: relative;
+  left: 675px;
+  bottom: 95px;
+}
+.selector{
+  position: relative;
+  top: 25px;
+}
+.selector h4{
+  font-size: 1.5em;
+  position: relative;
+  top: 50px;
+  left: 10%;
+}
+.año{
+  width: 25%;
+  position: relative;
+  left: 50%;
+}
+.deslizadora p{
+  position: relative;
+  left: 675px;
+  bottom: 95px;
+}
+.selectora{
+  position: relative;
+  top: 25px;
+}
+.selectora h4{
+  font-size: 1.5em;
+  position: relative;
+  top: 50px;
+  left: 10%;
+}
+.tipo{
+  width: 25%;
+  position: relative;
+  left: 50%;
+}
+@media all and (max-width: 992px){
+  .contenido{
+    height: 650px;
+  }
+  .opciones{
+    height: 625px;
+  }
+  .grafico{
+    width: 60%;
+    position: relative;
+    left: 15%;
+    top: 75px;
+  }
+  .a a{
+    font-size: 2em;
+    width: 80%;
+    height: 75px;
+    position: relative;
+    left: 10%;
+    bottom: -100px;
+  }
+  .deslizador{
+      width: 100%;
+  }
+  .deslizador input{
+    width: 80%;
+    position: relative;
+    top: 50px;
+    left: 5%;
+  }
+  .deslizador p{
+    position: relative;
+    left: 40%;
+    bottom: 50px;
+  }
+  .teme{
+    font-size: 1.5em;
+    position: relative;
+    left: 30%;
+  }
+  .selector{
+    position: relative;
+    top: 80px;
+  }
+  .selector .year{
+    font-size: 1.5em;
+    position: relative;
+    left: 30%;
+  }
+  .selector .año{
+    position: relative;
+    left: 15%;
+    top: 50px;
+    width: 80%;
+  }
+  .selectora{
+    position: relative;
+    top: 150px;
+  }
+  .selectora .tipe{
+    font-size: 1.5em;
+    position: relative;
+    left: 30%;
+  }
+  .selectora .tipo{
+    position: relative;
+    left: 15%;
+    top: 50px;
+    width: 80%;
+  }
+}

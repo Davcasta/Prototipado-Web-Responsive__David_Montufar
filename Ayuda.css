@@ -1,0 +1,55 @@
+.opciones{
+  position: relative;
+  bottom: 40px;
+}
+.menu {
+  position: relative;
+  bottom: 400px;
+}
+
+.mes{
+  height: 50px;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  top: 20px;
+}
+.mes h1{
+  font-size: 2em;
+  text-align: center;
+  position: relative;
+  top: 10PX;
+}
+h3{
+  width: 50%;
+  font-size: 2em;
+  color: black;
+  position: relative;
+  left: 10%;
+  top: 50px;
+}
+.a a{
+  width: 25%;
+  position: relative;
+  left: 60%;
+}
+#ayuda{
+  position: relative;
+  left: 5%;
+  top: 50PX;
+}
+@media all and (max-width: 992px){
+  h3{
+    position: relative;
+    left: 25%;
+  }
+  .a{
+    position: relative;
+    top: 80px;
+    left: -25%;
+  }
+  #ayuda{
+    position: relative;
+    top: 100px;
+  }
+}

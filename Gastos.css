@@ -1,0 +1,228 @@
+.contenido {
+  width: 100%;
+  height: 450px;
+}
+.opciones{
+  height: 415px;
+}
+.nave{
+  height: 415px;
+}
+.buscar{
+  position: relative;
+  top: 30px;
+  left: 50px;
+  width: 50%;
+}
+.a{
+  width: 30%;
+  position: relative;
+  left: 650px;
+  bottom: 55px;
+}
+.a a{
+  height: 65px;
+}
+.a h1{
+  font-size: 1.5em;
+ position: relative;
+ bottom: 25px;
+}
+.gastoa{
+  background-color: #7C7C7C;
+  width: 900px;
+  height: 100px;
+  position: relative;
+  bottom: 50px;
+  left: 5%;
+}
+.gastoa h1{
+  color: white
+}
+.gastoa #titulo{
+  font-size: 2em;
+}
+.gastoa #tipo{
+  font-size: 1.5em;
+  position: relative;
+  left: 5px;
+}
+.gastoa #valor{
+  font-size: 1.5em;
+  position: relative;
+  left: 150px;
+  bottom: 65px;
+}
+.gastoa #informacion{
+  width: 80px;
+  position: relative;
+  left: 600px;
+  bottom: 300px;
+}
+.gastoa #fondo{
+  color: #e0e0e0;
+  font-size: 200px;
+  position: relative;
+  left: 625px;
+  bottom: 200px;
+}
+.gastob{
+  position: relative;
+  position: relative;
+  bottom: 50px;
+  left: 5%;
+  background-color: #7C7C7C;
+  width: 900px;
+  height: 100px;
+}
+.gastob h1{
+  color: white
+}
+.gastob #titulo{
+  font-size: 2em;
+}
+.gastob #tipo{
+  font-size: 1.5em;
+  position: relative;
+  left: 5px;
+}
+.gastob #valor{
+  font-size: 1.5em;
+  position: relative;
+  left: 150px;
+  bottom: 65px;
+}
+.gastob #informacion{
+  width: 80px;
+  position: relative;
+  left: 600px;
+  bottom: 300px;
+}
+.gastob #fondo{
+  color: #e0e0e0;
+  font-size:  200px;
+  position: relative;
+  left: 625px;
+  bottom: 200px;
+}
+.opciones a{
+  position: relative;
+  top: 20px;
+  left: 50px;
+  width: 80%;
+}
+#datosa{
+  position: relative;
+  top: 50px;
+  left: 5%;
+}
+.checkbox{
+  display: flex;
+  position: relative;
+  top:125px;
+  right: 600px;
+}
+.checkbox h1{
+  font-size: 1.5em;
+  color: black;
+}
+.cuadro{
+  position: relative;
+  left: 75px;
+  top: 30px;
+}
+.cuadrob{
+  position: relative;
+  left: 275px;
+  top: -5px;
+}
+#datosb{
+  position: relative;
+  top: 150px;
+  left: 5%;
+}
+.guardar h1{
+  position: relative;
+  bottom: 30px;
+  font-size: 1.5em;
+}
+.menu{
+ position: relative;
+ bottom: 575px;
+}
+@media all and (max-width: 992px){
+  .contenido{
+    width: 100%;
+    height: 600px;
+  }
+  .opciones{
+    height: 550px;
+  }
+  .buscar{
+    position: relative;
+    top: 65px;
+    left: 5%;
+    width: 90%;
+  }
+  .a{
+    width: 90%;
+    position: relative;
+    left: 0px;
+    bottom: -400px;
+  }
+ .gastoa{
+   top: 35px;
+  width: 80%
+  }
+  .gastoa #informacion{
+    font-size: 400%;
+    position: relative;
+    left: 80%;
+    bottom: 160px;
+  }
+  .gastoa #titulo{
+    font-size: 1.5em;
+  }
+  .gastoa #tipo{
+    font-size: 1em;
+  }
+  .gastoa #valor{
+    font-size: 1em;
+  }
+  .gastob{
+    top: 35px;
+   width: 80%
+   }
+   .gastob #informacion{
+     font-size: 400%;
+     position: relative;
+     left: 80%;
+     bottom: 160px;
+   }
+   .gastob #titulo{
+     font-size: 1.5em;
+   }
+   .gastob #tipo{
+     font-size: 1em;
+   }
+   .gastob #valor{
+     font-size: 1em;
+   }
+   .checkbox{
+     position: relative;
+     right: 80%;
+   }
+   .datos label{
+   font-size: 1.4em;
+   }
+    .cuadrob{
+     position: relative;
+     left: 250%;
+    }
+    #datosa{
+      left: 20%;
+    }
+    #datosb{
+      left: 20%;
+    }
+}
