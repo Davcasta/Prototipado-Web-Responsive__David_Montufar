@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos de graficas</title>
+<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+<link rel = "stylesheet"
+   href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel = "stylesheet"
+   href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+<script type = "text/javascript"
+   src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+</script>
+
+<script>
+   $(document).ready(function() {
+      $('select').material_select();
+   });
+</script>
+<title>Graficas</title>
+ <link rel="stylesheet" href="CSS/Margenes.css">
+ <link rel="stylesheet" href="CSS/graficas.css">
+ <link href="Main/jquery-ui.css" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+  <div class="row">
+    <div class="titulo card-Panel grey darken-3" >
+        <span class="white-text">
+          <div>
+        <p>Precio Justo</p>
+          </div>
+         </span>
+    </div>
+    </div>
+    <body>
+     <div class="contenido">
+      <div class="row">
+        <div class="nave card-Panel grey darken-2 hide-on-med-and-down">
+            <span class="white-text">
+              <div>
+               <i class="large material-icons">account_circle</i>
+               <ul id="sideMenu" class=" fidex">
+                 <li>
+                   <div class="divider"></div>
+                 </li>
+                 <li>
+                   <a href="index.html" class="white-text"><h5 class="center-align">Inicio</h5></a>
+                 </li>
+                 <li>
+                   <a href="Usuario.html" class="white-text"><h5 class="center-align">Usuario</h5></a>
+                 </li>
+                 <li>
+                   <a href="Graficas.html" class="white-text"><h5 class="center-align">Graficas</h5></a>
+                 </li>
+                 <li>
+                   <a href="Ayuda.html" class="white-text"><h5 class="center-align">Ayuda</h5></a>
+                 </li>
+               </ul>
+              </div>
+             </span>
+      </div>
+    </div>
+    <div>.</div>
+      <div class="row">
+        <div class="opciones card-Panel grey lighten-2" >
+            <span class="white-text">
+                <a href="Graficas.html"class="guardar waves-effect waves-light btn grey lighten-1">Guardar Cambios</a>
+                   <div class="deslizador">
+                    <div class="teme"> Dia del mes</div> <input type="range" id="myRange" value="0" min="0" max="31" onclick="myFunction()">
+                      <p id="demo"></p>
+                     <script>
+                    function myFunction() {
+                    var x = document.getElementById("myRange").value;
+                    document.getElementById("demo").innerHTML = x;
+                     }
+                  </script>
+                  </span>
+                </div>
+                <span class="black-text">
+                  <div class="selector">
+                <h4 class="year">Selecione año de la grafica</h4>
+                <div class="año">
+                  <select id="selectmenu">
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option selected="selected">2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                  </select>
+                </div>
+              </div>
+              <div class="selectora">
+            <h4 class="tipe">Selecione el tipo de gasto</h4>
+              <div class="tipo">
+                <select id="selectmenu">
+                  <option>Fijo</option>
+                  <option>Variante</option>
+                  <option>Todos</option>
+                </select>
+              </div>
+            </div>
+            </span>
+    </div>
+  </div>
+  </div>
+  <span class="white-text">
+
+  <footer class="page-footer grey darken-3 mainContent">
+   <div class="footer-Copyright row">
+     <div class="col s12 m5">
+     ©2019 Davcasta Produccions <br/> Todos los derechos Reservados
+   </div>
+       <div class="col s12 m5">
+         <br/ class="hide-on-med-and-up">
+        <a href="" class="white-text">terminos y condiciones</a>
+      </div>
+      <div class="col s12 m2 datos">
+      502+ 7777-7777 <br/>
+      Ciudad de Guatemala </br>
+      Guatemala
+  </div>
+  </div>
+  </footer>
+</span>
+  </body>
+</html>
